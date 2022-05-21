@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white-glass: #f1f139cc;
+    /*--white-glass: rgba(241, 241, 57,0.8);*/
+}
+
+.back-city{
+    width: 100vw;
+    height: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../img/paris.jpg);
+
+}
+.card{
+    width: 750px;
+    height: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass{
+    border: 10px solid var(--white-glass);
+}
